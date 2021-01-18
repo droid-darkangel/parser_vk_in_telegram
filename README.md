@@ -15,3 +15,4 @@ names - displays the name and family of the user you selected.
 mobile - displays from your phone or computer in VKontakte your user. Or it shows that the user is not online.
 More commands (also in Russian) can be found on the help command. Before the command, you need to put a sign /.
 When downloading, you need to download all files (except start. bat, this is just a launcher for the bot in the console)
+Initially, the parser is my main page
