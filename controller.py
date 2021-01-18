@@ -94,17 +94,6 @@ async def get_avatar(message: types.Message):
     await bot.send_photo(chat_id=chat_id , photo=avatar)
     await message.delete()
 
-@dp.message_handler(commands=['get_default_users','дефолт'])
-async def get_default_users(message: types.Message):
-    chat_id = message.chat.id
-     
-    default_users = ('vfangel','marishken')
-    
-    for user in default_users:
-        await bot.send_message(chat_id=chat_id , text=user)
-
-    await message.delete()
-
 @dp.message_handler(commands=['phonenumber','номер'])
 async def get_url(message: types.Message):
     chat_id = message.chat.id
