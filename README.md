@@ -16,3 +16,6 @@ mobile - displays from your phone or computer in VKontakte your user. Or it show
 More commands (also in Russian) can be found on the help command. Before the command, you need to put a sign /.
 When downloading, you need to download all files (except start. bat, this is just a launcher for the bot in the console)
 Initially, the parser is my main page
+
+to work, you need python, and installed libraries: aiogram, requests
+after installing all of the above, and configuring the token in config.py, run start. bat and enjoy life, now you have a page parser!
